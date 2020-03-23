@@ -1,0 +1,6 @@
+framework module Pods_LocationSimulator_Tests {
+  umbrella header "Pods-LocationSimulator_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - LocationSimulator (0.1.0)
+
+DEPENDENCIES:
+  - LocationSimulator (from `../`)
+
+EXTERNAL SOURCES:
+  LocationSimulator:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LocationSimulator: 5837cdf341a98818755244cd534df79316dad1eb
+
+PODFILE CHECKSUM: 17e9b7e16af540e94bbb910b6a4a70c10c515310
+
+COCOAPODS: 1.9.1

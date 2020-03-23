@@ -1,0 +1,22 @@
+{
+  "name": "LocationSimulator",
+  "version": "0.1.0",
+  "summary": "A short description of LocationSimulator.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/strongwillow/LocationSimulator",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "strongwillow": "clear.tsai@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/strongwillow/LocationSimulator.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LocationSimulator/Classes/**/*"
+}
