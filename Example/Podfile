@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LocationSimulator_Example' do
+  pod 'LocationSimulator', :path => '../'
+
+  target 'LocationSimulator_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
