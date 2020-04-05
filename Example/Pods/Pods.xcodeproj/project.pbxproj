@@ -7,16 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		093062979BFD91B689D8202266B3A523 /* LocationSimulator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 67D258DDFD964768B2E1C0048EF774B9 /* LocationSimulator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10CB881721A567314562609269E0E4C5 /* cycle.gpx in Resources */ = {isa = PBXBuildFile; fileRef = AB45C97F8CC542997446B14A5AFA7BB0 /* cycle.gpx */; };
+		3EE94260EAB9AC0A514B37ACD4E502C7 /* LocationSimulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA179866A424E6F5740F80B4D4719BBC /* LocationSimulator.swift */; };
+		49096478C06FD9A1DB72090976A034C1 /* LocationSimulator.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2B8342AAC09270AEFC18F839817D107C /* LocationSimulator.bundle */; };
 		5FEFAE89AE5C0510E5546A74AC823F68 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		6E3960618FDD1B91C6ED844D4DB109BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		9790AB3AB1F335E0B2D67ED1F2F410FC /* Pods-LocationSimulator_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 36E97F7B34FA6CD445BB084C31E67C6F /* Pods-LocationSimulator_Example-dummy.m */; };
-		9F7035C0D1B8DC7A3CD5644879FF45DA /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A4E3F43374889ABE4F5080DF83D464 /* ReplaceMe.swift */; };
+		9F2353C164453346754ED369E8599932 /* LocationSimulator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 62F08DA678F04A70BCF6789D209E3FD4 /* LocationSimulator-dummy.m */; };
 		BEFFF8C57F60AEB031B283954F33B9F8 /* Pods-LocationSimulator_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 36A82D93E895A1382B09C8E08F1F79ED /* Pods-LocationSimulator_Tests-dummy.m */; };
 		C038CD014533CDE3F6BE5210A0AC0159 /* Pods-LocationSimulator_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 61827B296C587EC3BC3ACEC416A05A5E /* Pods-LocationSimulator_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D53336AF567E10F832DB5BCDDA409F25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		D5EB64903F78BE5C7FF89A5FF79F35BC /* LocationSimulator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 93EE96711B8BF428BD3B7A71621ECE02 /* LocationSimulator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F30A52A3D1215DA62BC841D9D7E3B959 /* Pods-LocationSimulator_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BC84F6016C197F4EC57C2567CD7443E /* Pods-LocationSimulator_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FF6CB86662E9A4127BAC26C64B729EFD /* LocationSimulator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F82AEF370C608FFAE3B5457E33B00C3 /* LocationSimulator-dummy.m */; };
+		F7CC69F260FBAC7D33A2A6C062E12C44 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		FA2501BE2CC40FF4861E886DF6723627 /* GPXFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5289349AC561404818EDDFA03E15FECD /* GPXFile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +29,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 891C9D15FBE1BE11D66A42018559B724;
 			remoteInfo = "Pods-LocationSimulator_Example";
+		};
+		EC2A47EC04940785705888F06546F4E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 664EB78E403658CCBD8BA47B39F38309;
+			remoteInfo = "LocationSimulator-LocationSimulator";
 		};
 		FD550A691E65958DEDD12A7C280A830D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -39,53 +49,64 @@
 /* Begin PBXFileReference section */
 		06CF5CC1721E0C16F0FEE8EA2B5C9108 /* Pods-LocationSimulator_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LocationSimulator_Example-Info.plist"; sourceTree = "<group>"; };
 		085FFE025EA2B8107D94DF5E914BB8EF /* LocationSimulator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LocationSimulator.framework; path = LocationSimulator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0CBCF7C545316BF162CC91AE3D3E6C1E /* LocationSimulator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LocationSimulator-Info.plist"; sourceTree = "<group>"; };
+		0EA000D9D98D8A349AF742DF57200766 /* LocationSimulator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LocationSimulator-Info.plist"; sourceTree = "<group>"; };
 		1D30639E643BA722C7B61DC385B05B16 /* Pods-LocationSimulator_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LocationSimulator_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2298116FEDF40DC2A152B6F1FB650BC0 /* Pods-LocationSimulator_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LocationSimulator_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		25DA89A5ACD90D6AC42830E638386FA8 /* Pods-LocationSimulator_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LocationSimulator_Tests.modulemap"; sourceTree = "<group>"; };
-		2F82AEF370C608FFAE3B5457E33B00C3 /* LocationSimulator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LocationSimulator-dummy.m"; sourceTree = "<group>"; };
+		2B8342AAC09270AEFC18F839817D107C /* LocationSimulator.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = LocationSimulator.bundle; path = "LocationSimulator-LocationSimulator.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		35E25C0553DB17FA1796C44C161DBA72 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		36A82D93E895A1382B09C8E08F1F79ED /* Pods-LocationSimulator_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LocationSimulator_Tests-dummy.m"; sourceTree = "<group>"; };
 		36E97F7B34FA6CD445BB084C31E67C6F /* Pods-LocationSimulator_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LocationSimulator_Example-dummy.m"; sourceTree = "<group>"; };
 		3A7DD286CFC582977A2474CFF9C5E473 /* Pods-LocationSimulator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LocationSimulator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		5289349AC561404818EDDFA03E15FECD /* GPXFile.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GPXFile.swift; path = LocationSimulator/Classes/GPXFile.swift; sourceTree = "<group>"; };
 		61827B296C587EC3BC3ACEC416A05A5E /* Pods-LocationSimulator_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LocationSimulator_Example-umbrella.h"; sourceTree = "<group>"; };
-		6710CA70A02C3A1F2E2CCDC7B7D11271 /* LocationSimulator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LocationSimulator-prefix.pch"; sourceTree = "<group>"; };
+		62493DB6A9E1A58823FD71ABA41B28F9 /* LocationSimulator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LocationSimulator.modulemap; sourceTree = "<group>"; };
+		62F08DA678F04A70BCF6789D209E3FD4 /* LocationSimulator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LocationSimulator-dummy.m"; sourceTree = "<group>"; };
+		67AB8B8245219AB8EB7A887B41C7590C /* LocationSimulator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LocationSimulator.release.xcconfig; sourceTree = "<group>"; };
+		67D258DDFD964768B2E1C0048EF774B9 /* LocationSimulator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LocationSimulator-umbrella.h"; sourceTree = "<group>"; };
 		7230A6DFF577ACE7311691A1325FD476 /* Pods_LocationSimulator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LocationSimulator_Example.framework; path = "Pods-LocationSimulator_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		89BE95EDBC366ABCFEF98F9C1CCEA586 /* LocationSimulator.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LocationSimulator.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		886DB4F9B666D257BACB1FEED050170B /* LocationSimulator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LocationSimulator.debug.xcconfig; sourceTree = "<group>"; };
 		89CE95A9474E56350481C77FBAD49BC6 /* Pods-LocationSimulator_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LocationSimulator_Example.modulemap"; sourceTree = "<group>"; };
 		8BC84F6016C197F4EC57C2567CD7443E /* Pods-LocationSimulator_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LocationSimulator_Tests-umbrella.h"; sourceTree = "<group>"; };
-		9087547065504DFED031462210E527C5 /* LocationSimulator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LocationSimulator.release.xcconfig; sourceTree = "<group>"; };
-		93EE96711B8BF428BD3B7A71621ECE02 /* LocationSimulator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LocationSimulator-umbrella.h"; sourceTree = "<group>"; };
+		8D221D2EDDBA257630C18EAAAC07A225 /* ResourceBundle-LocationSimulator-LocationSimulator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-LocationSimulator-LocationSimulator-Info.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DEBB154E1AF470C0091E8622418B05E /* Pods-LocationSimulator_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LocationSimulator_Tests-Info.plist"; sourceTree = "<group>"; };
 		9E03B1376FE7A4D0778B64CC463ABF0F /* Pods_LocationSimulator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LocationSimulator_Tests.framework; path = "Pods-LocationSimulator_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8E0A8787FC1F3607B6F71B32EC475B3 /* Pods-LocationSimulator_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LocationSimulator_Example.release.xcconfig"; sourceTree = "<group>"; };
 		A930222FBD38F88DE3BB212CDC5C416F /* Pods-LocationSimulator_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LocationSimulator_Example-frameworks.sh"; sourceTree = "<group>"; };
+		AB45C97F8CC542997446B14A5AFA7BB0 /* cycle.gpx */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = cycle.gpx; path = GPX/cycle.gpx; sourceTree = "<group>"; };
 		AF7C1214D48BF2B2178CE7814A55CF2F /* Pods-LocationSimulator_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LocationSimulator_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D1510C5A55188DBC1969D566EB27D289 /* Pods-LocationSimulator_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LocationSimulator_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		D4F803425FCABCED5119BFFFEA9F8B26 /* LocationSimulator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LocationSimulator.debug.xcconfig; sourceTree = "<group>"; };
-		E2A4E3F43374889ABE4F5080DF83D464 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = LocationSimulator/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		EA61456E489BC40C747846A3483F5A06 /* LocationSimulator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LocationSimulator.modulemap; sourceTree = "<group>"; };
+		D4C56BB17F1C93408157F32DD492C108 /* LocationSimulator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LocationSimulator-prefix.pch"; sourceTree = "<group>"; };
+		E03C2E4C5F487BD95D5651C893BBDD3A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		EA179866A424E6F5740F80B4D4719BBC /* LocationSimulator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocationSimulator.swift; path = LocationSimulator/Classes/LocationSimulator.swift; sourceTree = "<group>"; };
 		ECB395C6F323149A2A551E8658A499DD /* Pods-LocationSimulator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LocationSimulator_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		EDB69176AD857F2618D6BDFCED4E7BF4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		F2C4386E705470722427C4325AECE5B2 /* Pods-LocationSimulator_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LocationSimulator_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		F55E687A488F47FFB042751C9ECE7324 /* LocationSimulator.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LocationSimulator.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FD3E2A2A36A933AFB3E54C1023900680 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		399AAE7555671FD2F752174C263CAAB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D177ACD18AB12B1238962CBA7F830FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7CC69F260FBAC7D33A2A6C062E12C44 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8DB6EC9AFC67DC21CA12B0DA1B69880D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				6E3960618FDD1B91C6ED844D4DB109BD /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9BC7D2C646877700529CFC7020864DDE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D53336AF567E10F832DB5BCDDA409F25 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,19 +138,18 @@
 			path = "Target Support Files/Pods-LocationSimulator_Example";
 			sourceTree = "<group>";
 		};
-		66DBA2AA2378982F12B6B7B1E22444FA /* Pod */ = {
+		A5CA2F82DA1E0389C3E0B4EE025F771E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				35E25C0553DB17FA1796C44C161DBA72 /* LICENSE */,
-				89BE95EDBC366ABCFEF98F9C1CCEA586 /* LocationSimulator.podspec */,
-				EDB69176AD857F2618D6BDFCED4E7BF4 /* README.md */,
+				AB45C97F8CC542997446B14A5AFA7BB0 /* cycle.gpx */,
 			);
-			name = Pod;
+			name = Resources;
 			sourceTree = "<group>";
 		};
-		8A913D5785D78B80CBFC884BA3AEDB05 /* Products */ = {
+		A83432820F3C8780CD1A2DD372FCEB97 /* Products */ = {
 			isa = PBXGroup;
 			children = (
+				2B8342AAC09270AEFC18F839817D107C /* LocationSimulator.bundle */,
 				085FFE025EA2B8107D94DF5E914BB8EF /* LocationSimulator.framework */,
 				7230A6DFF577ACE7311691A1325FD476 /* Pods_LocationSimulator_Example.framework */,
 				9E03B1376FE7A4D0778B64CC463ABF0F /* Pods_LocationSimulator_Tests.framework */,
@@ -153,6 +173,19 @@
 			path = "Target Support Files/Pods-LocationSimulator_Tests";
 			sourceTree = "<group>";
 		};
+		B5B535CEFF31CAA1C662796C4E96BB9C /* LocationSimulator */ = {
+			isa = PBXGroup;
+			children = (
+				5289349AC561404818EDDFA03E15FECD /* GPXFile.swift */,
+				EA179866A424E6F5740F80B4D4719BBC /* LocationSimulator.swift */,
+				FAF48B3DD65970C61766C06F21D86575 /* Pod */,
+				A5CA2F82DA1E0389C3E0B4EE025F771E /* Resources */,
+				C867CE9518E91E0930E93B70C3C3D4DE /* Support Files */,
+			);
+			name = LocationSimulator;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -161,24 +194,29 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		C93A10FEFB826CB86AF57E2F541884C2 /* LocationSimulator */ = {
+		C867CE9518E91E0930E93B70C3C3D4DE /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				E2A4E3F43374889ABE4F5080DF83D464 /* ReplaceMe.swift */,
-				66DBA2AA2378982F12B6B7B1E22444FA /* Pod */,
-				D4E0D409EEB7ECA3DF6574D15980EA51 /* Support Files */,
+				62493DB6A9E1A58823FD71ABA41B28F9 /* LocationSimulator.modulemap */,
+				62F08DA678F04A70BCF6789D209E3FD4 /* LocationSimulator-dummy.m */,
+				0EA000D9D98D8A349AF742DF57200766 /* LocationSimulator-Info.plist */,
+				D4C56BB17F1C93408157F32DD492C108 /* LocationSimulator-prefix.pch */,
+				67D258DDFD964768B2E1C0048EF774B9 /* LocationSimulator-umbrella.h */,
+				886DB4F9B666D257BACB1FEED050170B /* LocationSimulator.debug.xcconfig */,
+				67AB8B8245219AB8EB7A887B41C7590C /* LocationSimulator.release.xcconfig */,
+				8D221D2EDDBA257630C18EAAAC07A225 /* ResourceBundle-LocationSimulator-LocationSimulator-Info.plist */,
 			);
-			name = LocationSimulator;
-			path = ../..;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LocationSimulator";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				EB333AD7E89E8B4F1C3D217C9137422F /* Development Pods */,
+				E49B200C51A52477A134C69FD7658F47 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				8A913D5785D78B80CBFC884BA3AEDB05 /* Products */,
+				A83432820F3C8780CD1A2DD372FCEB97 /* Products */,
 				E8A639F589ACA1167C338E9EE9981BC8 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -191,19 +229,12 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D4E0D409EEB7ECA3DF6574D15980EA51 /* Support Files */ = {
+		E49B200C51A52477A134C69FD7658F47 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				EA61456E489BC40C747846A3483F5A06 /* LocationSimulator.modulemap */,
-				2F82AEF370C608FFAE3B5457E33B00C3 /* LocationSimulator-dummy.m */,
-				0CBCF7C545316BF162CC91AE3D3E6C1E /* LocationSimulator-Info.plist */,
-				6710CA70A02C3A1F2E2CCDC7B7D11271 /* LocationSimulator-prefix.pch */,
-				93EE96711B8BF428BD3B7A71621ECE02 /* LocationSimulator-umbrella.h */,
-				D4F803425FCABCED5119BFFFEA9F8B26 /* LocationSimulator.debug.xcconfig */,
-				9087547065504DFED031462210E527C5 /* LocationSimulator.release.xcconfig */,
+				B5B535CEFF31CAA1C662796C4E96BB9C /* LocationSimulator */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/LocationSimulator";
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		E8A639F589ACA1167C338E9EE9981BC8 /* Targets Support Files */ = {
@@ -215,12 +246,14 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		EB333AD7E89E8B4F1C3D217C9137422F /* Development Pods */ = {
+		FAF48B3DD65970C61766C06F21D86575 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				C93A10FEFB826CB86AF57E2F541884C2 /* LocationSimulator */,
+				FD3E2A2A36A933AFB3E54C1023900680 /* LICENSE */,
+				F55E687A488F47FFB042751C9ECE7324 /* LocationSimulator.podspec */,
+				E03C2E4C5F487BD95D5651C893BBDD3A /* README.md */,
 			);
-			name = "Development Pods";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,11 +267,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		67DDE49A1DD765E659A26F20E5C1330D /* Headers */ = {
+		B82E30428F8F65615857F72BC783EC74 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5EB64903F78BE5C7FF89A5FF79F35BC /* LocationSimulator-umbrella.h in Headers */,
+				093062979BFD91B689D8202266B3A523 /* LocationSimulator-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,21 +288,39 @@
 /* Begin PBXNativeTarget section */
 		0D4306DAFAE1F80232A46F46023661F7 /* LocationSimulator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9B32F54C4607242AA4B83B291D5CB46A /* Build configuration list for PBXNativeTarget "LocationSimulator" */;
+			buildConfigurationList = 57E7C896875907365FEA7A4B233C749C /* Build configuration list for PBXNativeTarget "LocationSimulator" */;
 			buildPhases = (
-				67DDE49A1DD765E659A26F20E5C1330D /* Headers */,
-				E2E52E4C49CEC763B278F2B728BA590C /* Sources */,
-				9BC7D2C646877700529CFC7020864DDE /* Frameworks */,
-				2D494109D26CDDA020459AA9209AA754 /* Resources */,
+				B82E30428F8F65615857F72BC783EC74 /* Headers */,
+				F4FF7D2A08A9AB228037E218000ADF29 /* Sources */,
+				6D177ACD18AB12B1238962CBA7F830FF /* Frameworks */,
+				3DFA108F78AD40755D5E36D2BA421BBC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				43B496E64D1959C3A5C79FDCECE0FE74 /* PBXTargetDependency */,
 			);
 			name = LocationSimulator;
 			productName = LocationSimulator;
 			productReference = 085FFE025EA2B8107D94DF5E914BB8EF /* LocationSimulator.framework */;
 			productType = "com.apple.product-type.framework";
+		};
+		664EB78E403658CCBD8BA47B39F38309 /* LocationSimulator-LocationSimulator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D8FCB88ACE975C91BC4AF159B169642 /* Build configuration list for PBXNativeTarget "LocationSimulator-LocationSimulator" */;
+			buildPhases = (
+				1E72785E2215233D55ABB0CF9C5C9BF7 /* Sources */,
+				399AAE7555671FD2F752174C263CAAB6 /* Frameworks */,
+				16CE32F70A8D37015F16DE95B613D89A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LocationSimulator-LocationSimulator";
+			productName = "LocationSimulator-LocationSimulator";
+			productReference = 2B8342AAC09270AEFC18F839817D107C /* LocationSimulator.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 		891C9D15FBE1BE11D66A42018559B724 /* Pods-LocationSimulator_Example */ = {
 			isa = PBXNativeTarget;
@@ -327,11 +378,12 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 8A913D5785D78B80CBFC884BA3AEDB05 /* Products */;
+			productRefGroup = A83432820F3C8780CD1A2DD372FCEB97 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				0D4306DAFAE1F80232A46F46023661F7 /* LocationSimulator */,
+				664EB78E403658CCBD8BA47B39F38309 /* LocationSimulator-LocationSimulator */,
 				891C9D15FBE1BE11D66A42018559B724 /* Pods-LocationSimulator_Example */,
 				B51EA856BDBFCA64DDE000E26951658A /* Pods-LocationSimulator_Tests */,
 			);
@@ -346,10 +398,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2D494109D26CDDA020459AA9209AA754 /* Resources */ = {
+		16CE32F70A8D37015F16DE95B613D89A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10CB881721A567314562609269E0E4C5 /* cycle.gpx in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DFA108F78AD40755D5E36D2BA421BBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49096478C06FD9A1DB72090976A034C1 /* LocationSimulator.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,6 +424,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1E72785E2215233D55ABB0CF9C5C9BF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8883B810DE49BB0A859A8FEDA71AA3E7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -371,12 +439,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E2E52E4C49CEC763B278F2B728BA590C /* Sources */ = {
+		F4FF7D2A08A9AB228037E218000ADF29 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF6CB86662E9A4127BAC26C64B729EFD /* LocationSimulator-dummy.m in Sources */,
-				9F7035C0D1B8DC7A3CD5644879FF45DA /* ReplaceMe.swift in Sources */,
+				FA2501BE2CC40FF4861E886DF6723627 /* GPXFile.swift in Sources */,
+				9F2353C164453346754ED369E8599932 /* LocationSimulator-dummy.m in Sources */,
+				3EE94260EAB9AC0A514B37ACD4E502C7 /* LocationSimulator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,6 +465,12 @@
 			name = "Pods-LocationSimulator_Example";
 			target = 891C9D15FBE1BE11D66A42018559B724 /* Pods-LocationSimulator_Example */;
 			targetProxy = 872FCB6A4FF90784A26290FC25B51F96 /* PBXContainerItemProxy */;
+		};
+		43B496E64D1959C3A5C79FDCECE0FE74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "LocationSimulator-LocationSimulator";
+			target = 664EB78E403658CCBD8BA47B39F38309 /* LocationSimulator-LocationSimulator */;
+			targetProxy = EC2A47EC04940785705888F06546F4E2 /* PBXContainerItemProxy */;
 		};
 		49481A27CBCF1106FE340A7749150E32 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -440,9 +515,26 @@
 			};
 			name = Release;
 		};
-		3759FC87408AA806A0FBB8079F4F7583 /* Debug */ = {
+		342E1E850EB5A744A0A1735736AD1836 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D4F803425FCABCED5119BFFFEA9F8B26 /* LocationSimulator.debug.xcconfig */;
+			baseConfigurationReference = 886DB4F9B666D257BACB1FEED050170B /* LocationSimulator.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/LocationSimulator";
+				IBSC_MODULE = LocationSimulator;
+				INFOPLIST_FILE = "Target Support Files/LocationSimulator/ResourceBundle-LocationSimulator-LocationSimulator-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = LocationSimulator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		3677343DDEC4A72B98EA14B7DEF1B23C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 886DB4F9B666D257BACB1FEED050170B /* LocationSimulator.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -471,35 +563,20 @@
 			};
 			name = Debug;
 		};
-		76F5DEA4B64A3F897CA8F2A9711EC6A8 /* Release */ = {
+		457E16A4366EA4F61C05360141872016 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9087547065504DFED031462210E527C5 /* LocationSimulator.release.xcconfig */;
+			baseConfigurationReference = 67AB8B8245219AB8EB7A887B41C7590C /* LocationSimulator.release.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LocationSimulator/LocationSimulator-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LocationSimulator/LocationSimulator-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/LocationSimulator";
+				IBSC_MODULE = LocationSimulator;
+				INFOPLIST_FILE = "Target Support Files/LocationSimulator/ResourceBundle-LocationSimulator-LocationSimulator-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LocationSimulator/LocationSimulator.modulemap";
-				PRODUCT_MODULE_NAME = LocationSimulator;
 				PRODUCT_NAME = LocationSimulator;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
@@ -602,6 +679,38 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		A5465739A8549700A41C7DFDED274769 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67AB8B8245219AB8EB7A887B41C7590C /* LocationSimulator.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LocationSimulator/LocationSimulator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LocationSimulator/LocationSimulator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LocationSimulator/LocationSimulator.modulemap";
+				PRODUCT_MODULE_NAME = LocationSimulator;
+				PRODUCT_NAME = LocationSimulator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		B0087CB4594321EF41619F3181FE120E /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -739,6 +848,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		3D8FCB88ACE975C91BC4AF159B169642 /* Build configuration list for PBXNativeTarget "LocationSimulator-LocationSimulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				342E1E850EB5A744A0A1735736AD1836 /* Debug */,
+				457E16A4366EA4F61C05360141872016 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -748,11 +866,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9B32F54C4607242AA4B83B291D5CB46A /* Build configuration list for PBXNativeTarget "LocationSimulator" */ = {
+		57E7C896875907365FEA7A4B233C749C /* Build configuration list for PBXNativeTarget "LocationSimulator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3759FC87408AA806A0FBB8079F4F7583 /* Debug */,
-				76F5DEA4B64A3F897CA8F2A9711EC6A8 /* Release */,
+				3677343DDEC4A72B98EA14B7DEF1B23C /* Debug */,
+				A5465739A8549700A41C7DFDED274769 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		245F37C075450433DD409880 /* Pods_LocationSimulator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LocationSimulator_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2DE7948D688F21775A0F260E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		2DE7948D688F21775A0F260E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* LocationSimulator_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocationSimulator_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -40,8 +40,8 @@
 		607FACE51AFB9204008FA782 /* LocationSimulator_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocationSimulator_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		65E94DC4F7C95E698EFD1DC4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		7B7633F403075B3A8BD022DF /* LocationSimulator.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LocationSimulator.podspec; path = ../LocationSimulator.podspec; sourceTree = "<group>"; };
+		65E94DC4F7C95E698EFD1DC4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		7B7633F403075B3A8BD022DF /* LocationSimulator.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LocationSimulator.podspec; path = ../LocationSimulator.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		7F285E4C692EF2F39551C690 /* Pods-LocationSimulator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocationSimulator_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LocationSimulator_Tests/Pods-LocationSimulator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		AD2817268F4C338FF550F156 /* Pods-LocationSimulator_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocationSimulator_Example.debug.xcconfig"; path = "Target Support Files/Pods-LocationSimulator_Example/Pods-LocationSimulator_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B28E62B370080F8A44A0EFBA /* Pods-LocationSimulator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocationSimulator_Tests.release.xcconfig"; path = "Target Support Files/Pods-LocationSimulator_Tests/Pods-LocationSimulator_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -156,7 +156,6 @@
 				7F285E4C692EF2F39551C690 /* Pods-LocationSimulator_Tests.debug.xcconfig */,
 				B28E62B370080F8A44A0EFBA /* Pods-LocationSimulator_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -213,10 +212,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = SSH2BFFWF3;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = SSH2BFFWF3;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -227,6 +228,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -478,6 +480,7 @@
 			baseConfigurationReference = AD2817268F4C338FF550F156 /* Pods-LocationSimulator_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SSH2BFFWF3;
 				INFOPLIST_FILE = LocationSimulator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -493,6 +496,7 @@
 			baseConfigurationReference = D8F4FE5EE269DE9A2314C9A0 /* Pods-LocationSimulator_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SSH2BFFWF3;
 				INFOPLIST_FILE = LocationSimulator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -507,6 +511,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7F285E4C692EF2F39551C690 /* Pods-LocationSimulator_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = SSH2BFFWF3;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -529,6 +534,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B28E62B370080F8A44A0EFBA /* Pods-LocationSimulator_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = SSH2BFFWF3;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",

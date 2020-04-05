@@ -18,5 +18,10 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "LocationSimulator/Classes/**/*"
+  "source_files": "LocationSimulator/Classes/**/*",
+  "resource_bundles": {
+    "LocationSimulator": [
+      "GPX/*.gpx"
+    ]
+  }
 }

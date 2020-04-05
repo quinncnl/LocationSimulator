@@ -7,12 +7,48 @@
 //
 
 import UIKit
+import MapKit
+import LocationSimulator
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, CLLocationManagerDelegate, MKMapViewDelegate {
 
+    let locationSimulator = SimLocationManager()
+    @IBOutlet weak var mapView: MKMapView!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        locationSimulator.delegate = self
+        locationSimulator.startUpdatingLocation()
+        mapView.delegate = self
+    }
+    
+    var lastCoord: CLLocationCoordinate2D?
+    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+        if let last = lastCoord {
+            var coords = [CLLocationCoordinate2D]()
+            coords.append(last)
+            for i in locations {
+                coords.append(i.coordinate)
+            }
+            let poly = MKPolyline(coordinates: coords, count: coords.count)
+            mapView.add(poly, level: .aboveLabels)
+        }
+        lastCoord = locations.last?.coordinate
+        
+        let cam = MKMapCamera(lookingAtCenter: lastCoord!, fromDistance: 1500, pitch: 0, heading: 0)
+        mapView.setCamera(cam, animated: true)
+        print(locations)
+        
+    }
+    
+    func mapView(_ mapView: MKMapView, rendererFor overlay: MKOverlay) -> MKOverlayRenderer {
+        if overlay is MKPolyline {
+            let renderer = MKPolylineRenderer(overlay: overlay)
+            renderer.strokeColor = .red
+            renderer.lineWidth = 5
+            return renderer
+        }
+        return MKOverlayRenderer()
     }
 
     override func didReceiveMemoryWarning() {
