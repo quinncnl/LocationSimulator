@@ -1,7 +1,10 @@
 import XCTest
 import LocationSimulator
 
-class Tests: XCTestCase {
+/**
+ Test GPX reading facility.
+ */
+class GPXFileTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

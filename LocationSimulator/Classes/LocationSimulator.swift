@@ -2,14 +2,29 @@ import os
 import UIKit
 import CoreLocation
 
-public final class SimLocationManager: CLLocationManager {
+public final class LSLocationManager: CLLocationManager {
     
-    override public init() {
+    var sourceURL: URL?
+    var locations = [CLLocation]()
+    
+    public init(locationFile: URL) {
+        sourceURL = locationFile
+        super.init()
+    }
+    
+    public init(builtInLocationFileName: String) {
+        let myBundle = Bundle(for: Self.self)
+        guard let resourceBundleURL = myBundle.url(
+            forResource: "LocationSimulator", withExtension: "bundle")
+            else { fatalError("MySDK.bundle not found!") }
         
+        let path = resourceBundleURL.appendingPathComponent(builtInLocationFileName).path
+        sourceURL = URL(fileURLWithPath: path)
+        super.init()
     }
     
     public override func startUpdatingLocation() {
-        parseFile(filename: "cycle.gpx")
+        parseLocationFile()
         startFeedingLocations()
     }
     
@@ -17,20 +32,14 @@ public final class SimLocationManager: CLLocationManager {
         
     }
 
-    var locations = [CLLocation]()
-    func parseFile(filename: String) {
-        
-        let myBundle = Bundle(for: Self.self)
-        guard let resourceBundleURL = myBundle.url(
-        forResource: "LocationSimulator", withExtension: "bundle")
-        else { fatalError("MySDK.bundle not found!") }
-
-        let path = resourceBundleURL.appendingPathComponent(filename).path
-        locations = GPXFile(fileURL: URL(fileURLWithPath: path)).getLocations()
+    func parseLocationFile() {
+        guard self.sourceURL != nil else {
+            assert(false, "Location source file not set")
+        }
+        locations = GPXFile(fileURL: self.sourceURL!).getLocations()
     }
 
     func startFeedingLocations() {
-       
         DispatchQueue.global().async {
             var i = 0
 

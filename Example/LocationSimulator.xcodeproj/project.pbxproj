@@ -13,7 +13,8 @@
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
-		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		607FACEC1AFB9204008FA782 /* GPXFileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* GPXFileTests.swift */; };
+		62C87B53243A6809000B06E1 /* LocationManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C87B52243A6809000B06E1 /* LocationManagerTests.swift */; };
 		81C04F8FA383302B662E551C /* Pods_LocationSimulator_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F972D1BAB1554648FF4ED967 /* Pods_LocationSimulator_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -39,7 +40,8 @@
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* LocationSimulator_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocationSimulator_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		607FACEB1AFB9204008FA782 /* GPXFileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPXFileTests.swift; sourceTree = "<group>"; };
+		62C87B52243A6809000B06E1 /* LocationManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManagerTests.swift; sourceTree = "<group>"; };
 		65E94DC4F7C95E698EFD1DC4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		7B7633F403075B3A8BD022DF /* LocationSimulator.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LocationSimulator.podspec; path = ../LocationSimulator.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		7F285E4C692EF2F39551C690 /* Pods-LocationSimulator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocationSimulator_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LocationSimulator_Tests/Pods-LocationSimulator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -124,8 +126,9 @@
 		607FACE81AFB9204008FA782 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				607FACEB1AFB9204008FA782 /* Tests.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
+				607FACEB1AFB9204008FA782 /* GPXFileTests.swift */,
+				62C87B52243A6809000B06E1 /* LocationManagerTests.swift */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -342,7 +345,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
+				62C87B53243A6809000B06E1 /* LocationManagerTests.swift in Sources */,
+				607FACEC1AFB9204008FA782 /* GPXFileTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
