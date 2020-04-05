@@ -8,6 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'LocationSimulator'
+    s.swift_versions   =
     s.version          = '0.1.0'
     s.summary          = 'A Location Simulator with CLLocationManager Interface'
     
@@ -28,6 +29,7 @@ Pod::Spec.new do |s|
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
     s.author           = { 'strongwillow' => 'clear.tsai@gmail.com' }
     s.source           = { :git => 'https://github.com/strongwillow/LocationSimulator.git', :tag => s.version.to_s }
+    s.swift_version = '4.0'
     # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
     
     s.ios.deployment_target = '8.0'

@@ -1,8 +1,9 @@
 {
   "name": "LocationSimulator",
   "version": "0.1.0",
-  "summary": "A short description of LocationSimulator.",
-  "description": "TODO: Add long description of the pod here.",
+  "swift_versions": "4.0",
+  "summary": "A Location Simulator with CLLocationManager Interface",
+  "description": "LocationSimulator is a CLLocationManager replacement that feeds positions in GPX files. It's very simple to use. Just replace `CLLocationManager` with `LSLocationManager`!\n\nWhen you are developing location basd app, you may want to test it with different location feeds. The builtin Xcode position simulator is not easy to use and cannot be customized in run time. It also misses some important information such as accuracy, heading and altitude. LocationSimulator is a testing library that feeds realistic location information to your app.",
   "homepage": "https://github.com/strongwillow/LocationSimulator",
   "license": {
     "type": "MIT",
@@ -23,5 +24,6 @@
     "LocationSimulator": [
       "GPX/*.gpx"
     ]
-  }
+  },
+  "swift_version": "4.0"
 }

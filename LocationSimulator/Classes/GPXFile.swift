@@ -22,6 +22,7 @@ public final class GPXFile: NSObject {
 
         guard let data = FileManager.default.contents(atPath: url.path) else {
             assert(false, "File not found")
+            return
         }
         
         let fileContent = String(data: data, encoding: .utf8)!

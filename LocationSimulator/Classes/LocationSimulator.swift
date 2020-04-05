@@ -13,14 +13,17 @@ public final class LSLocationManager: CLLocationManager {
     }
     
     public init(builtInLocationFileName: String) {
+        super.init()
         let myBundle = Bundle(for: Self.self)
         guard let resourceBundleURL = myBundle.url(
             forResource: "LocationSimulator", withExtension: "bundle")
-            else { fatalError("MySDK.bundle not found!") }
+            else {
+                assert(false, "MySDK.bundle not found!")
+                return
+        }
         
         let path = resourceBundleURL.appendingPathComponent(builtInLocationFileName).path
         sourceURL = URL(fileURLWithPath: path)
-        super.init()
     }
     
     public override func startUpdatingLocation() {
@@ -33,10 +36,11 @@ public final class LSLocationManager: CLLocationManager {
     }
 
     func parseLocationFile() {
-        guard self.sourceURL != nil else {
+        guard let sourceURL = self.sourceURL else {
             assert(false, "Location source file not set")
+            return
         }
-        locations = GPXFile(fileURL: self.sourceURL!).getLocations()
+        locations = GPXFile(fileURL: sourceURL).getLocations()
     }
 
     func startFeedingLocations() {
