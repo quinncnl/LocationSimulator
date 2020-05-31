@@ -12,7 +12,7 @@
 		3EE94260EAB9AC0A514B37ACD4E502C7 /* LocationSimulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA179866A424E6F5740F80B4D4719BBC /* LocationSimulator.swift */; };
 		49096478C06FD9A1DB72090976A034C1 /* LocationSimulator.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2B8342AAC09270AEFC18F839817D107C /* LocationSimulator.bundle */; };
 		5FEFAE89AE5C0510E5546A74AC823F68 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		62766FF62483FF4700C4A28C /* SanFrancisco.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 62766FF52483FF4600C4A28C /* SanFrancisco.gpx */; };
+		62766FF72484003300C4A28C /* SanFrancisco.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 62766FF52483FF4600C4A28C /* SanFrancisco.gpx */; };
 		6E3960618FDD1B91C6ED844D4DB109BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		9790AB3AB1F335E0B2D67ED1F2F410FC /* Pods-LocationSimulator_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 36E97F7B34FA6CD445BB084C31E67C6F /* Pods-LocationSimulator_Example-dummy.m */; };
 		9F2353C164453346754ED369E8599932 /* LocationSimulator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 62F08DA678F04A70BCF6789D209E3FD4 /* LocationSimulator-dummy.m */; };
@@ -406,6 +406,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				10CB881721A567314562609269E0E4C5 /* EindhovenBiking.gpx in Resources */,
+				62766FF72484003300C4A28C /* SanFrancisco.gpx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,7 +415,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				49096478C06FD9A1DB72090976A034C1 /* LocationSimulator.bundle in Resources */,
-				62766FF62483FF4700C4A28C /* SanFrancisco.gpx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
