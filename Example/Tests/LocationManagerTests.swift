@@ -35,7 +35,7 @@ class LocationManagerDelegate: NSObject, CLLocationManagerDelegate {
  */
 class LocationManagerTests: XCTestCase {
 
-    var locationManager = LSLocationManager(builtInLocationFileName: "cycle.gpx")
+    var locationManager = LSLocationManager(builtInLocationFileName: "SanFrancisco.gpx")
     var locationManagerDelegate: LocationManagerDelegate?
     
     override func setUpWithError() throws {

@@ -8,10 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		093062979BFD91B689D8202266B3A523 /* LocationSimulator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 67D258DDFD964768B2E1C0048EF774B9 /* LocationSimulator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		10CB881721A567314562609269E0E4C5 /* cycle.gpx in Resources */ = {isa = PBXBuildFile; fileRef = AB45C97F8CC542997446B14A5AFA7BB0 /* cycle.gpx */; };
+		10CB881721A567314562609269E0E4C5 /* EindhovenBiking.gpx in Resources */ = {isa = PBXBuildFile; fileRef = AB45C97F8CC542997446B14A5AFA7BB0 /* EindhovenBiking.gpx */; };
 		3EE94260EAB9AC0A514B37ACD4E502C7 /* LocationSimulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA179866A424E6F5740F80B4D4719BBC /* LocationSimulator.swift */; };
 		49096478C06FD9A1DB72090976A034C1 /* LocationSimulator.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2B8342AAC09270AEFC18F839817D107C /* LocationSimulator.bundle */; };
 		5FEFAE89AE5C0510E5546A74AC823F68 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		62766FF62483FF4700C4A28C /* SanFrancisco.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 62766FF52483FF4600C4A28C /* SanFrancisco.gpx */; };
 		6E3960618FDD1B91C6ED844D4DB109BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		9790AB3AB1F335E0B2D67ED1F2F410FC /* Pods-LocationSimulator_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 36E97F7B34FA6CD445BB084C31E67C6F /* Pods-LocationSimulator_Example-dummy.m */; };
 		9F2353C164453346754ED369E8599932 /* LocationSimulator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 62F08DA678F04A70BCF6789D209E3FD4 /* LocationSimulator-dummy.m */; };
@@ -48,12 +49,12 @@
 
 /* Begin PBXFileReference section */
 		06CF5CC1721E0C16F0FEE8EA2B5C9108 /* Pods-LocationSimulator_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LocationSimulator_Example-Info.plist"; sourceTree = "<group>"; };
-		085FFE025EA2B8107D94DF5E914BB8EF /* LocationSimulator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LocationSimulator.framework; path = LocationSimulator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		085FFE025EA2B8107D94DF5E914BB8EF /* LocationSimulator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LocationSimulator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EA000D9D98D8A349AF742DF57200766 /* LocationSimulator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LocationSimulator-Info.plist"; sourceTree = "<group>"; };
 		1D30639E643BA722C7B61DC385B05B16 /* Pods-LocationSimulator_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LocationSimulator_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2298116FEDF40DC2A152B6F1FB650BC0 /* Pods-LocationSimulator_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LocationSimulator_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		25DA89A5ACD90D6AC42830E638386FA8 /* Pods-LocationSimulator_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LocationSimulator_Tests.modulemap"; sourceTree = "<group>"; };
-		2B8342AAC09270AEFC18F839817D107C /* LocationSimulator.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = LocationSimulator.bundle; path = "LocationSimulator-LocationSimulator.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B8342AAC09270AEFC18F839817D107C /* LocationSimulator.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocationSimulator.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		36A82D93E895A1382B09C8E08F1F79ED /* Pods-LocationSimulator_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LocationSimulator_Tests-dummy.m"; sourceTree = "<group>"; };
 		36E97F7B34FA6CD445BB084C31E67C6F /* Pods-LocationSimulator_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LocationSimulator_Example-dummy.m"; sourceTree = "<group>"; };
@@ -61,29 +62,30 @@
 		5289349AC561404818EDDFA03E15FECD /* GPXFile.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GPXFile.swift; path = LocationSimulator/Classes/GPXFile.swift; sourceTree = "<group>"; };
 		61827B296C587EC3BC3ACEC416A05A5E /* Pods-LocationSimulator_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LocationSimulator_Example-umbrella.h"; sourceTree = "<group>"; };
 		62493DB6A9E1A58823FD71ABA41B28F9 /* LocationSimulator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LocationSimulator.modulemap; sourceTree = "<group>"; };
+		62766FF52483FF4600C4A28C /* SanFrancisco.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = SanFrancisco.gpx; path = GPX/SanFrancisco.gpx; sourceTree = "<group>"; };
 		62F08DA678F04A70BCF6789D209E3FD4 /* LocationSimulator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LocationSimulator-dummy.m"; sourceTree = "<group>"; };
 		67AB8B8245219AB8EB7A887B41C7590C /* LocationSimulator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LocationSimulator.release.xcconfig; sourceTree = "<group>"; };
 		67D258DDFD964768B2E1C0048EF774B9 /* LocationSimulator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LocationSimulator-umbrella.h"; sourceTree = "<group>"; };
-		7230A6DFF577ACE7311691A1325FD476 /* Pods_LocationSimulator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LocationSimulator_Example.framework; path = "Pods-LocationSimulator_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7230A6DFF577ACE7311691A1325FD476 /* Pods_LocationSimulator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LocationSimulator_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		886DB4F9B666D257BACB1FEED050170B /* LocationSimulator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LocationSimulator.debug.xcconfig; sourceTree = "<group>"; };
 		89CE95A9474E56350481C77FBAD49BC6 /* Pods-LocationSimulator_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LocationSimulator_Example.modulemap"; sourceTree = "<group>"; };
 		8BC84F6016C197F4EC57C2567CD7443E /* Pods-LocationSimulator_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LocationSimulator_Tests-umbrella.h"; sourceTree = "<group>"; };
 		8D221D2EDDBA257630C18EAAAC07A225 /* ResourceBundle-LocationSimulator-LocationSimulator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-LocationSimulator-LocationSimulator-Info.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DEBB154E1AF470C0091E8622418B05E /* Pods-LocationSimulator_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LocationSimulator_Tests-Info.plist"; sourceTree = "<group>"; };
-		9E03B1376FE7A4D0778B64CC463ABF0F /* Pods_LocationSimulator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LocationSimulator_Tests.framework; path = "Pods-LocationSimulator_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E03B1376FE7A4D0778B64CC463ABF0F /* Pods_LocationSimulator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LocationSimulator_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8E0A8787FC1F3607B6F71B32EC475B3 /* Pods-LocationSimulator_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LocationSimulator_Example.release.xcconfig"; sourceTree = "<group>"; };
 		A930222FBD38F88DE3BB212CDC5C416F /* Pods-LocationSimulator_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LocationSimulator_Example-frameworks.sh"; sourceTree = "<group>"; };
-		AB45C97F8CC542997446B14A5AFA7BB0 /* cycle.gpx */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = cycle.gpx; path = GPX/cycle.gpx; sourceTree = "<group>"; };
+		AB45C97F8CC542997446B14A5AFA7BB0 /* EindhovenBiking.gpx */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = EindhovenBiking.gpx; path = GPX/EindhovenBiking.gpx; sourceTree = "<group>"; };
 		AF7C1214D48BF2B2178CE7814A55CF2F /* Pods-LocationSimulator_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LocationSimulator_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D1510C5A55188DBC1969D566EB27D289 /* Pods-LocationSimulator_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LocationSimulator_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		D4C56BB17F1C93408157F32DD492C108 /* LocationSimulator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LocationSimulator-prefix.pch"; sourceTree = "<group>"; };
-		E03C2E4C5F487BD95D5651C893BBDD3A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		E03C2E4C5F487BD95D5651C893BBDD3A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		EA179866A424E6F5740F80B4D4719BBC /* LocationSimulator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocationSimulator.swift; path = LocationSimulator/Classes/LocationSimulator.swift; sourceTree = "<group>"; };
 		ECB395C6F323149A2A551E8658A499DD /* Pods-LocationSimulator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LocationSimulator_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F2C4386E705470722427C4325AECE5B2 /* Pods-LocationSimulator_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LocationSimulator_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		F55E687A488F47FFB042751C9ECE7324 /* LocationSimulator.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LocationSimulator.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		FD3E2A2A36A933AFB3E54C1023900680 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F55E687A488F47FFB042751C9ECE7324 /* LocationSimulator.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = LocationSimulator.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FD3E2A2A36A933AFB3E54C1023900680 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,7 +143,8 @@
 		A5CA2F82DA1E0389C3E0B4EE025F771E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				AB45C97F8CC542997446B14A5AFA7BB0 /* cycle.gpx */,
+				AB45C97F8CC542997446B14A5AFA7BB0 /* EindhovenBiking.gpx */,
+				62766FF52483FF4600C4A28C /* SanFrancisco.gpx */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -402,7 +405,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				10CB881721A567314562609269E0E4C5 /* cycle.gpx in Resources */,
+				10CB881721A567314562609269E0E4C5 /* EindhovenBiking.gpx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +414,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				49096478C06FD9A1DB72090976A034C1 /* LocationSimulator.bundle in Resources */,
+				62766FF62483FF4700C4A28C /* SanFrancisco.gpx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -765,8 +769,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

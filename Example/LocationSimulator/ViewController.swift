@@ -12,7 +12,7 @@ import LocationSimulator
 
 class ViewController: UIViewController, CLLocationManagerDelegate, MKMapViewDelegate {
 
-    let locationSimulator = LSLocationManager(builtInLocationFileName: "cycle.gpx")
+    let locationSimulator = LSLocationManager(builtInLocationFileName: "SanFrancisco.gpx")
     @IBOutlet weak var mapView: MKMapView!
     override func viewDidLoad() {
         super.viewDidLoad()

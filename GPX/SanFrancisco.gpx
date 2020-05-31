@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Traces">
+    <metadata>
+        <link href="https://www.tracestrack.com">
+            <text>Tracestrack App</text>
+        </link>
+        <time>2017-12-28T14:43:00Z</time>
+    </metadata>
+    
+    <trk>
+        <name>Evening Cycling</name>
+        <trkseg>
+            <trkpt lat="37.787666" lon="-122.407281"><ele>19</ele><time>2017-12-28T14:43:00Z</time></trkpt>
+        </trkseg>
+    </gpx>
+    </trk>
