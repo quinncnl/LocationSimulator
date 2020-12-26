@@ -35,12 +35,12 @@ class ViewController: UIViewController, CLLocationManagerDelegate, MKMapViewDele
                 coords.append(i.coordinate)
             }
             let poly = MKPolyline(coordinates: coords, count: coords.count)
-            mapView.add(poly, level: .aboveLabels)
+            mapView.addOverlay(poly, level: .aboveLabels)
         }
         lastCoord = locations.last?.coordinate
         
         let cam = MKMapCamera(lookingAtCenter: lastCoord!, fromDistance: 1500, pitch: 0, heading: 0)
-        mapView.setCamera(cam, animated: true)
+        mapView.setCamera(cam, animated: false)
         
         for loc in locations {
             printLocation(loc: loc)

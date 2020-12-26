@@ -1,5 +1,5 @@
 PODS:
-  - LocationSimulator (0.1.0)
+  - LocationSimulator (0.2.0)
 
 DEPENDENCIES:
   - LocationSimulator (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LocationSimulator: d6627f679126da8f208e186ec4523919340131b8
+  LocationSimulator: eb4f9df0494c1b9eb5f6b1d49dc53fea561af457
 
 PODFILE CHECKSUM: 17e9b7e16af540e94bbb910b6a4a70c10c515310
 
-COCOAPODS: 1.9.1
+COCOAPODS: 1.9.3
