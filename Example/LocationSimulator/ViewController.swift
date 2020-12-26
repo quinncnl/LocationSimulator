@@ -12,7 +12,7 @@ import LocationSimulator
 
 class ViewController: UIViewController, CLLocationManagerDelegate, MKMapViewDelegate {
 
-    let locationSimulator = LSLocationManager(builtInLocationFileName: "SanFrancisco.gpx")
+    let locationSimulator = LSLocationManager(builtInLocationFileName: "EindhovenBiking.gpx")
     @IBOutlet weak var mapView: MKMapView!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,6 +20,10 @@ class ViewController: UIViewController, CLLocationManagerDelegate, MKMapViewDele
         locationSimulator.delegate = self
         locationSimulator.startUpdatingLocation()
         mapView.delegate = self
+    }
+    
+    func printLocation(loc: CLLocation) {
+        print(loc.coordinate.latitude, loc.coordinate.longitude, loc.altitude)
     }
     
     var lastCoord: CLLocationCoordinate2D?
@@ -37,8 +41,10 @@ class ViewController: UIViewController, CLLocationManagerDelegate, MKMapViewDele
         
         let cam = MKMapCamera(lookingAtCenter: lastCoord!, fromDistance: 1500, pitch: 0, heading: 0)
         mapView.setCamera(cam, animated: true)
-        print(locations)
         
+        for loc in locations {
+            printLocation(loc: loc)
+        }
     }
     
     func mapView(_ mapView: MKMapView, rendererFor overlay: MKOverlay) -> MKOverlayRenderer {

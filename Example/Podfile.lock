@@ -1,5 +1,5 @@
 PODS:
-  - LocationSimulator (0.1.0)
+  - LocationSimulator (0.2.0)
 
 DEPENDENCIES:
   - LocationSimulator (from `../`)
